@@ -1,0 +1,9 @@
+--3. 모든 교수는 교수번호를 부여하여 식별하며
+-- 교수이름, 교수주소, 교수전화번호. 교수이메일, 소속 학과번호 정보를 가진다.
+CREATE TABLE TB_PROFESSOR (
+	PROF_NO NUMBER CONSTRAINT PROF_NO_PK PRIMARY KEY,
+	PROF_NAME VARCHAR(30),
+	PROF_ADDRESS VARCHAR(50),
+	PROF_PHONE VARCHAR(20),
+	PROF_EMAIL VARCHAR(50)
+);
